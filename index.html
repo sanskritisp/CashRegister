@@ -8,20 +8,24 @@
     <link href="./style.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Cash register</h1>
-    <p> Enter the bill amount and the amount of cash given to the user, so you chan know the minimum number of notes to return to the customer.</p> <hr/>
-    <label for ="bill-amount">BILL AMOUNT</label>
-    <input id="bill-amount" type="text"></input> <br/>
+    <h1>CASH REGISTER</h1>
+    <p> Enter the bill amount and the amount of cash given by the customer, so you know the minimum number of notes to return to the customer.</p> <hr/>
+    <div>
+    <label for ="bill-amount">BILL AMOUNT</label><br/>
+    <input id="bill-amount" type="text"></input> <br/><br/>
    
-    <label for ="cash-amount">CASH GIVEN</label>
-    <input id="cash-amount"  type="text"></input><br/>
+    <label for ="cash-amount">CASH GIVEN</label><br/>
+    <input id="cash-amount"  type="text"></input><br/> <br/> <br/>
 
-    <button id="check-btn">CHECK</button><br/>
-    <p id="error-msg"></p>
+    <button id="check-btn">CHECK</button>
+    <hr/>
+    </div>
+    <p id="error-msg"></p> <br/>
+    <div class="table">
     <table class="cash-table">
         <caption>
-            Notes to be returned:
-        </caption>
+            Number of notes to be returned of each:
+        </caption> <hr/> <br/>
         <tr>
             <th>Number of notes</th>
             <td class="notes"></td>
@@ -31,7 +35,7 @@
             <td class ="notes"></td>
             <td class ="notes"></td>
             <td class ="notes"></td>
-        </tr>
+        </tr> 
         <tr>
             <th>Notes of:</th>
             <td>2000</td>
@@ -43,6 +47,7 @@
             <td>1</td>
         </tr>
     </table>
+    </div>
     <script src="./app.js"></script>
 </body>
 </html>

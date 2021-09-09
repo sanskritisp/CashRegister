@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 :root {
-    --primary-color: #4ea35c;
+    --primary-color: #173d1e;
     --secondary-color: rgb(71, 71, 197);
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
@@ -9,10 +9,56 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    
+    background-image: linear-gradient(rgb(176, 228, 181),rgb(190, 238, 218))
 }
 h1{
     color: var(--primary-color);
     text-align: center;
     text-decoration: underline;
 }
+p{
+    text-align: center;
+    margin: auto;
+    padding: 1rem 2rem;
+    font-size: larger;
+}
+label{
+   color: var(--primary-color);
+   font-size: larger;
+   font-weight: bolder;
+}
+div{
+    text-align: center;
+}
+input{
+    width: 350px;
+    height: 28px;
+    border-style: dashed;
+    color: var(--primary-color);
+}
+button{
+    width: 270PX;
+    height: 44px;
+    border: 2px solid var(--primary-color);
+    font-size: larger;
+    color: white;
+    border-radius: 18px;
+    background-color: var(--primary-color);
+}
+.table{
+   
+        text-align: center;
+        margin: auto;
+        display: grid;
+        font-size: larger;
+        color: var(--primary-color);
+    }
+    caption{
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+    hr{
+      
+        border-top: 1px dotted var(--primary-color)
+    }
