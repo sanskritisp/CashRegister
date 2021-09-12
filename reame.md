@@ -1,0 +1,1 @@
+This is a cash register which will return you the minimum values of notes that you have to return to the customer.
